@@ -118,12 +118,6 @@ static decimal AddList(List<decimal> typedNumbers)
     return result;
 }
 
-static decimal Substract(decimal valueToModify, decimal value)
-{ 
-    valueToModify -= value;
-    return valueToModify;
-}
-
 static decimal SubstractList(List<decimal> typedNumbers)
 {
     if (typedNumbers.Count == 0) return 0;
@@ -137,11 +131,6 @@ static decimal SubstractList(List<decimal> typedNumbers)
     return result;
 }   
 
-static decimal Multiplication(decimal valueToModify, decimal value)
-{
-    valueToModify *= value;
-    return valueToModify;
-}
 static decimal MultiplicationList(List<decimal> typedNumbers)
 {
     if (typedNumbers.Count == 0) return 1;
@@ -155,11 +144,6 @@ static decimal MultiplicationList(List<decimal> typedNumbers)
     return result;
 }
 
-static decimal Division(decimal valueToModify, decimal value)
-{
-    valueToModify /= value;
-    return valueToModify;
-}
 static decimal DivisionList(List<decimal> typedNumbers)
 {
     if (typedNumbers.Count == 0)  return 1; 
